@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: 0;
+    /* font-size: 62.5%; */
+}
+
+body {
+    /* font-size: 2rem; */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.tituloForm{
+    font-size: 2rem;
+    align-content: center;
+    display: block;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    vertical-align: top;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #c51b1b;
+}
+
+.menu ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    border: 1px  solid black;
+    margin: 0;
+    padding: 0;
+    margin: 3px;
+}
+
+.menu a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: black;
+    font-size: 120%;
+}
+
+.personal-info {
+    display: flex;
+}
+
+.personal-img {
+    margin: 5px;
+    width: 10%;
+}
+
+.personal-info img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.personal-text {
+    margin: 5px;
+    width: 90%;
+    justify-items: center;
+}
+
+#bloco-colunas {
+    display: flex;
+}
+
+#ex-dadosProfissionais {
+    background-color: #b15a5a;
+}
+
+#dadosProfissionais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    border: 1px solid blue;
+
+}
+
+#dadosAcademicos {
+    width: 50%;    
+    background-color: #46ca43;
+}
+
+#dadosAcademicos {
+    width: 50%;    
+    background-color: #46ca43;
+}
+
+#lazer {
+    width: 50%;    
+    background-color: #c5f126;
+    justify-content: center;
+}
+
+#links {
+    display: grid;
+    justify-items: center;
+    background-color: #c51b1b;
+    color: black;
+}
+
+
+#links :hover{
+    color: rgb(7, 242, 54);
+}
+
+hr {
+    color: black;
+    height: 5px;
+    /* width: 70%; */
+    margin: auto;
+    background-color: #c51b1b;
+}
+
+.formContato{
+    display: flexbox;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.aprovado{
+    background-color: #46ca43;
+}
+.cursando{
+    background-color:#c5f126;
+}
